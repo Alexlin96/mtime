@@ -1,0 +1,204 @@
+#moWan{
+    height: 100%;
+    
+    .moWan-top{
+      background: #1c2635;height: 0.3rem;padding: 0.2rem 0.06rem; display: flex;position: relative;z-index: 4;
+      
+        .icon-shangyiye{
+            color: white;font-size: 0.3rem;
+        }
+        
+        .moWan-center{
+            background: white;padding-top: 0.06rem;width: 2.8rem;height: 0.3rem;border-radius: 0.1rem;padding-left: 0.1rem;
+            
+            i{
+              font-size: 0.2rem;
+            }
+            
+            .searchText{
+                font-size: 0.18rem;margin-left: 0.02rem;
+            }
+        }
+        
+        .moWan-right{
+            margin-left: 0.1rem;margin-top: 0.02rem;
+            
+            .icon-shaixuan{
+                font-size: 0.3rem;color: white;
+            }
+        }
+    }
+    
+    .moWan-nav{
+        background: white;position: relative;z-index: 4;
+        
+        ul{
+            display: flex;border-bottom: 0.01rem solid gainsboro;
+            
+            li{
+                width: 33.3%;text-align: center;height: 0.4rem;font-size: 0.14rem;
+                
+                a{
+                    color: #333;box-sizing: border-box;border-right: 0.01rem solid gainsboro;display: block;height: 0.2rem;margin-top: 0.1rem;
+                    
+                    .icon-icon--1{
+                        margin-left: 0.15rem;
+                    }
+                    
+                    .icon-icon--2{
+                        margin-left: 0.15rem;
+                    }
+                }
+            }
+        }
+    } 
+    
+    .sortDiv{
+        position: absolute;background: rgba(0,0,0,0.5);z-index: 2;width: 100%;height: 100%;
+        
+        ul{
+            background: white;padding-left: 0.1rem;
+        }
+        
+        li{
+           height: 0.5rem;line-height: 0.5rem;border-bottom: 0.01rem solid gainsboro;font-size: 0.2rem;
+        }
+        
+        .active{
+            border-bottom-color: dodgerblue;
+            
+            a{
+                color: dodgerblue;
+            }
+        }
+    }
+    
+    .topic{
+        position: absolute;background: rgba(0,0,0,0.5);z-index: 2;width: 100%;height: 100%;
+        
+        ul{
+            background: white;
+            
+            li{
+               height: 0.6rem;background: gainsboro;line-height: 0.6rem;padding-left: 0.12rem;
+                
+                a{
+                    display: flex;
+                    
+                    img{
+                        width: 0.4rem;height: 0.4rem;margin-top: 0.1rem;
+                    }
+                    
+                    span{
+                        margin-left: 0.2rem;font-size: 0.2rem;
+                    }  
+                }
+            }
+            
+            .active{
+               border-bottom-color: dodgerblue;background: white;
+            
+              a{
+                color: dodgerblue;
+            }
+         }
+        }
+    }
+    
+    .rolemain{
+        position: absolute;background: rgba(0,0,0,0.5);z-index: 2;width: 100%;height: 100%;
+        
+        ul{
+            background: white;
+            
+            li{
+               height: 0.6rem;line-height: 0.6rem;border-bottom: 0.01rem solid gainsboro;margin-left: 0.12rem;
+                
+                a{                 
+                    span{
+                        margin-left: 0.2rem;font-size: 0.2rem;
+                    }  
+                }
+            }
+            
+            .active{
+               border-bottom-color: dodgerblue;background: white;
+            
+              a{
+                color: dodgerblue;
+            }
+         }
+        }
+    }
+    
+    .maWan-list{
+        margin-top: 4%;
+        
+        ul{
+            display: flex;flex-wrap: wrap;
+            
+            li{
+                width: 50%;box-sizing: border-box;background: white;padding: 0.05rem 0.1rem;border-right: 0.05rem solid gainsboro;
+                border-bottom: 0.05rem solid gainsboro;position: relative;height: 2.2rem;
+                
+                a{
+                  display: block;  
+                  
+                    img{
+                        width: 80%;margin-bottom: 0.08rem;margin-left: 10%;
+                    }
+                    
+                    .name{
+                        color: #333;font-size: 0.13rem;margin-bottom: 0.1rem;
+                    }
+                    
+                    .weizhi{
+                        position: absolute;top:90%;
+                        
+                        .youPrice{
+                            color: #ff8600;font-size: 0.12rem;
+                        }
+                        
+                        .yuanPrice{
+                            text-decoration:line-through ;font-size: 0.11rem;margin-left: 0.1rem;
+                        }
+                    }
+                }
+            }
+        }   
+    }
+    
+    .morelink{
+        width: 100%;padding-bottom: 0.1rem;background: gainsboro;
+           
+       a{
+          font-size: 0.2rem;color: #969896; text-align: center;display: block;font-weight: 400;
+       }
+    }
+    
+    .backtop{
+       position:fixed;width: 0.5rem;height: 0.5rem;z-index: 2;right: 0;top:80%;
+    }    
+}
+
+.example-enter {
+  opacity: 0.01;
+  transform: translateY(-100%);
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transform: translateY(-100%);
+  transition: all 300ms ease-in;
+}

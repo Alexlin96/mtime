@@ -1,0 +1,44 @@
+#shopCart {
+  height: 100%; }
+  #shopCart .cart-top {
+    background: #1c2635;
+    height: 0.3rem;
+    padding: 0.2rem 0.06rem;
+    display: flex; }
+    #shopCart .cart-top .icon-shangyiye {
+      color: white;
+      font-size: 0.3rem; }
+    #shopCart .cart-top .cart-center {
+      color: white;
+      width: 2.4rem;
+      height: 0.3rem;
+      padding-left: 0.1rem;
+      text-align: center;
+      line-height: 0.3rem;
+      font-size: 0.2rem; }
+  #shopCart .cart-cen {
+    height: 4.6rem; }
+    #shopCart .cart-cen .cart-pic {
+      background: url(//static1.mtime.cn/html5/20180426170931/images/2014/emptycate.png) no-repeat center center;
+      width: 1.6rem;
+      height: 1.6rem;
+      display: block;
+      background-size: 100%;
+      margin: 0.5rem auto 0.2rem; }
+    #shopCart .cart-cen p {
+      color: #777;
+      text-align: center;
+      font-size: 0.16rem; }
+    #shopCart .cart-cen .bigbtn {
+      text-align: center;
+      margin-top: 0.5rem; }
+      #shopCart .cart-cen .bigbtn .btn_hui {
+        color: #999;
+        display: block;
+        width: 1.2rem;
+        height: 0.5rem;
+        border: 0.01rem solid #999;
+        line-height: 0.5rem;
+        border-radius: 0.3rem;
+        font-size: 0.2rem;
+        margin: 0 auto; }

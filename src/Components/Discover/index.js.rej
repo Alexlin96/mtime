@@ -1,0 +1,9 @@
+diff a/src/Components/Discover/index.js b/src/Components/Discover/index.js	(rejected hunks)
+@@ -5,6 +5,7 @@
+ 
+ 	render(){
+ 		return(
++			<div id='discover'>
+ 				<ul className="discoverheader">
+ 					<li><NavLink to="/discover/news" activeClassName="active">新闻</NavLink></li>
+ 					<li><NavLink to="/discover/trailer" activeClassName="active">预告片</NavLink></li>

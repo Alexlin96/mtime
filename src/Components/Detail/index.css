@@ -1,0 +1,305 @@
+#detail {
+  background: #fff; }
+  #detail .detail_head {
+    height: 1.7rem; }
+    #detail .detail_head .head_pic {
+      height: 1.7rem;
+      overflow: hidden; }
+      #detail .detail_head .head_pic img {
+        filter: blur(0.05rem);
+        opacity: 0.8; }
+    #detail .detail_head .menu {
+      position: relative;
+      top: -1.7rem;
+      height: .5rem; }
+      #detail .detail_head .menu i {
+        display: inline-block;
+        width: .5rem;
+        font-size: .3rem;
+        color: #fff;
+        text-align: center;
+        line-height: .5rem; }
+      #detail .detail_head .menu i:nth-of-type(2) {
+        float: right;
+        font-size: .4rem; }
+      #detail .detail_head .menu i:nth-of-type(3) {
+        float: right;
+        margin-right: -.1rem; }
+  #detail .detail_info {
+    position: relative;
+    top: -1.5rem;
+    padding-left: .18rem;
+    height: 1.9rem; }
+    #detail .detail_info .info_pic {
+      position: relative;
+      width: 1.26rem;
+      height: 1.88rem;
+      padding: 0.02rem;
+      margin-right: .12rem;
+      background: #fff; }
+      #detail .detail_info .info_pic img {
+        height: 100%; }
+      #detail .detail_info .info_pic .moviever {
+        position: absolute;
+        top: .1rem;
+        right: .1rem; }
+        #detail .detail_info .info_pic .moviever span {
+          display: block;
+          width: .38rem;
+          height: .28rem;
+          margin-bottom: .05rem; }
+        #detail .detail_info .info_pic .moviever .bgCine_03 {
+          height: .34rem; }
+        #detail .detail_info .info_pic .moviever .bgCine_04 {
+          height: .38rem; }
+    #detail .detail_info .info {
+      position: absolute;
+      top: 0;
+      left: 1.6rem;
+      width: 2.1rem;
+      height: 1.9rem;
+      font-size: .14rem;
+      line-height: .2rem;
+      font-weight: 800; }
+      #detail .detail_info .info .titleCn {
+        font-size: .22rem;
+        color: #fff;
+        line-height: .3rem;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden; }
+      #detail .detail_info .info .titleEn {
+        height: .2rem;
+        color: #fff;
+        font-weight: 500;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden; }
+      #detail .detail_info .info .rate {
+        height: .2rem; }
+        #detail .detail_info .info .rate span {
+          float: right;
+          width: .3rem;
+          height: .3rem;
+          background: #659d0e;
+          font-size: .16rem;
+          color: #fff;
+          font-weight: 500;
+          text-align: center;
+          line-height: .3rem;
+          margin-right: .18rem; }
+      #detail .detail_info .info .see {
+        font-weight: 500;
+        margin-top: .15rem; }
+        #detail .detail_info .info .see span {
+          display: inline-block;
+          width: .92rem;
+          height: .38rem;
+          margin-right: .06rem;
+          text-align: center;
+          line-height: .38rem;
+          border-radius: .28rem; }
+        #detail .detail_info .info .see span:first-child {
+          color: #777;
+          border: 1px solid #999; }
+        #detail .detail_info .info .see span:last-child {
+          color: #659c0d;
+          border: 1px solid #659c0d; }
+  #detail .detail_buy {
+    height: .5rem;
+    padding: .25rem;
+    margin-top: 1rem; }
+    #detail .detail_buy p {
+      font-size: .2rem;
+      color: #fff;
+      font-weight: 800;
+      border-radius: .48rem;
+      text-align: center;
+      line-height: .5rem;
+      background: #ff8600; }
+  #detail .cin_line p:first-child {
+    height: .06rem;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0.02rem 0.02rem rgba(51, 51, 51, 0.05);
+    position: relative;
+    z-index: 1; }
+  #detail .cin_line p:last-child {
+    height: .14rem;
+    background: #f6f6f6;
+    position: relative;
+    z-index: 0; }
+  #detail .plot_region {
+    font-size: .18rem;
+    padding: .16rem .18rem 0; }
+    #detail .plot_region .hide {
+      height: .4rem;
+      overflow: hidden; }
+    #detail .plot_region p:last-child {
+      height: .34rem;
+      text-align: center;
+      line-height: .34rem; }
+      #detail .plot_region p:last-child i {
+        font-size: .3rem;
+        color: #bbb; }
+  #detail .credits {
+    padding: 0 .18rem; }
+    #detail .credits .credits_info {
+      height: 2.8rem; }
+      #detail .credits .credits_info .director {
+        float: left;
+        width: 1rem;
+        padding-right: .1rem;
+        height: 2.8rem; }
+        #detail .credits .credits_info .director .pic {
+          width: 1rem;
+          height: 1.4rem;
+          margin: .06rem 0 .2rem; }
+          #detail .credits .credits_info .director .pic img {
+            height: 100%; }
+        #detail .credits .credits_info .director p {
+          text-align: center; }
+      #detail .credits .credits_info .actor {
+        float: left;
+        width: 2.1rem;
+        padding-left: .18rem;
+        border-left: 1px solid #bbb;
+        height: 2.8rem; }
+        #detail .credits .credits_info .actor ul {
+          margin: .06rem 0 0;
+          overflow: hidden; }
+          #detail .credits .credits_info .actor ul li {
+            float: left;
+            margin-right: 0.1rem; }
+            #detail .credits .credits_info .actor ul li .actor_pic {
+              width: 1rem;
+              height: 1rem;
+              margin-bottom: .06rem;
+              overflow: hidden; }
+            #detail .credits .credits_info .actor ul li p {
+              width: 1rem;
+              text-align: center; }
+            #detail .credits .credits_info .actor ul li .actor_name, #detail .credits .credits_info .actor ul li .role_name {
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap; }
+            #detail .credits .credits_info .actor ul li .actorEn_name {
+              height: .32rem; }
+            #detail .credits .credits_info .actor ul li .role_pic {
+              width: .48rem;
+              height: .48rem;
+              margin: .13rem auto; }
+              #detail .credits .credits_info .actor ul li .role_pic img {
+                height: 100%; }
+          #detail .credits .credits_info .actor ul li:last-child {
+            margin-right: 0; }
+  #detail .goto_t {
+    font-size: .2rem;
+    line-height: .2rem;
+    padding: .12rem 0;
+    margin-bottom: .1rem; }
+    #detail .goto_t i {
+      float: right;
+      font-size: .3rem;
+      color: #bbb;
+      line-height: .2rem; }
+  #detail .movie_img {
+    padding: 0 .18rem; }
+    #detail .movie_img ul {
+      margin-bottom: .3rem;
+      overflow: hidden; }
+      #detail .movie_img ul li {
+        float: left;
+        width: .8rem;
+        height: .8rem;
+        padding: 0 .02rem; }
+        #detail .movie_img ul li img {
+          height: 100%; }
+  #detail .hot_comments {
+    padding: 0 .18rem; }
+    #detail .hot_comments .hot_com {
+      height: 1.2rem;
+      line-height: .24rem; }
+      #detail .hot_comments .hot_com b {
+        display: inline-block;
+        font-size: .18rem;
+        width: 3.4rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      #detail .hot_comments .hot_com p {
+        font-size: .16rem;
+        padding: .12rem 0; }
+    #detail .hot_comments .uesr {
+      height: .5rem; }
+      #detail .hot_comments .uesr .user_pic {
+        float: left;
+        width: .5rem;
+        height: .5rem;
+        margin-right: .15rem;
+        border-radius: .5rem;
+        overflow: hidden; }
+        #detail .hot_comments .uesr .user_pic img {
+          height: 100%; }
+      #detail .hot_comments .uesr .uesr_name {
+        float: left;
+        font-size: .16rem;
+        color: #777; }
+        #detail .hot_comments .uesr .uesr_name p {
+          line-height: .24rem; }
+        #detail .hot_comments .uesr .uesr_name i {
+          display: inline-block;
+          width: .24rem;
+          height: .24rem;
+          background: #659d0e;
+          color: #fff;
+          text-align: center;
+          line-height: .24rem;
+          margin-left: .06rem; }
+  #detail .short_comments {
+    padding-left: .18rem; }
+    #detail .short_comments .comments {
+      font-size: .14rem;
+      overflow: hidden;
+      padding-top: .18rem;
+      border-bottom: 1px solid #d8d8d8; }
+      #detail .short_comments .comments .user_head {
+        float: left;
+        width: .48rem;
+        height: .48rem;
+        margin-right: .16rem;
+        border-radius: .5rem;
+        overflow: hidden; }
+        #detail .short_comments .comments .user_head img {
+          height: 100%; }
+      #detail .short_comments .comments .user_comments {
+        float: left;
+        width: 2.7rem; }
+        #detail .short_comments .comments .user_comments .user_name {
+          color: #999;
+          line-height: .24rem; }
+          #detail .short_comments .comments .user_comments .user_name .commentsdate {
+            float: right; }
+            #detail .short_comments .comments .user_comments .user_name .commentsdate i {
+              display: inline-block;
+              width: .24rem;
+              height: .24rem;
+              background: #659d0e;
+              font-size: .14rem;
+              color: #fff;
+              text-align: center;
+              line-height: .24rem;
+              margin-left: .06rem; }
+        #detail .short_comments .comments .user_comments .content {
+          font-size: .16rem;
+          line-height: .24rem; }
+        #detail .short_comments .comments .user_comments .reply {
+          height: .42rem;
+          text-align: right;
+          padding-top: .12rem; }
+          #detail .short_comments .comments .user_comments .reply i {
+            font-size: .24rem; }
+          #detail .short_comments .comments .user_comments .reply span {
+            margin-right: .12rem; }
+    #detail .short_comments .comments:last-child {
+      border-bottom: 0; }

@@ -1,0 +1,13 @@
+#discover a {
+  color: #333; }
+
+#discover ul.discoverheader {
+  background: white;
+  display: flex; }
+  #discover ul.discoverheader li {
+    list-style: none;
+    font-size: 0.16rem;
+    flex: 1;
+    line-height: 0.4rem;
+    height: 0.4rem;
+    text-align: center; }

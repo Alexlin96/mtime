@@ -1,0 +1,34 @@
+#hotplaying {
+  overflow: hidden;
+  padding: 0 .18rem; }
+  #hotplaying ul li {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 .05rem; }
+    #hotplaying ul li .pic {
+      height: 1.16rem;
+      position: relative; }
+      #hotplaying ul li .pic img {
+        height: 100%; }
+      #hotplaying ul li .pic span {
+        position: absolute;
+        right: .05rem;
+        top: .05rem;
+        z-index: 9;
+        display: inline-block;
+        width: .25rem;
+        height: .2rem;
+        background: #659d0e;
+        font-size: .12rem;
+        text-align: center;
+        line-height: .2rem;
+        color: #fff; }
+    #hotplaying ul li .title {
+      width: 0.8rem;
+      height: .4rem;
+      text-align: center;
+      line-height: .2rem;
+      font-size: 0.16rem;
+      overflow: hidden;
+      margin: .05rem 0 .12rem; }

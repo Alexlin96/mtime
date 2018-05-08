@@ -1,0 +1,93 @@
+#news {
+  background: white; }
+  #news .banner {
+    width: 100%;
+    height: 2.3rem;
+    position: relative; }
+    #news .banner img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+    #news .banner h3 {
+      font-size: 0.2rem;
+      background: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0.15rem 0 0.15rem;
+      color: white;
+      text-align: center; }
+  #news ._newsList {
+    padding-left: 0.2rem;
+    list-style: none; }
+    #news ._newsList .table {
+      display: flex;
+      position: relative;
+      border-bottom: 1px solid #ddd;
+      cursor: pointer;
+      padding: 0.19rem 0 0.18rem; }
+      #news ._newsList .table .npic {
+        width: 1rem; }
+        #news ._newsList .table .npic a {
+          display: block;
+          height: 0.84rem;
+          overflow: hidden;
+          position: relative; }
+          #news ._newsList .table .npic a img {
+            height: 100%;
+            display: block; }
+      #news ._newsList .table .newstxt {
+        padding-left: 0.2rem; }
+        #news ._newsList .table .newstxt dl {
+          margin-top: -0.03rem;
+          position: relative;
+          height: 0.84rem; }
+          #news ._newsList .table .newstxt dl dt {
+            font-size: 0.16rem;
+            line-height: 0.24rem;
+            font-weight: bold; }
+          #news ._newsList .table .newstxt dl dd {
+            color: #777;
+            padding: 0.06rem 0 0.03rem; }
+            #news ._newsList .table .newstxt dl dd p {
+              font-size: 0.14rem; }
+            #news ._newsList .table .newstxt dl dd time {
+              margin-right: 0.5rem; }
+    #news ._newsList .notbigpic {
+      border-bottom: 1px solid #ddd;
+      cursor: pointer;
+      position: relative;
+      padding: 0.19rem 0 0.18rem; }
+      #news ._newsList .notbigpic .newstxt {
+        padding: 0; }
+        #news ._newsList .notbigpic .newstxt dl {
+          height: auto;
+          margin-top: -0.03rem;
+          position: relative; }
+          #news ._newsList .notbigpic .newstxt dl dt {
+            font-size: 0.16rem;
+            line-height: 0.24rem; }
+          #news ._newsList .notbigpic .newstxt dl dd {
+            color: #777;
+            padding: 0.06rem 0 0.03rem; }
+            #news ._newsList .notbigpic .newstxt dl dd .picshow {
+              padding-top: 0.06rem;
+              display: flex;
+              justify-content: space-around;
+              align-items: center; }
+              #news ._newsList .notbigpic .newstxt dl dd .picshow p {
+                flex-basis: 33%; }
+                #news ._newsList .notbigpic .newstxt dl dd .picshow p a {
+                  display: block;
+                  height: 0.84rem; }
+                  #news ._newsList .notbigpic .newstxt dl dd .picshow p a img {
+                    display: block;
+                    width: 100%;
+                    height: 100%; }
+  #news p {
+    text-align: center;
+    cursor: pointer;
+    color: #1e7dd7;
+    font-size: 0.16rem;
+    padding: 0.15rem 0; }

@@ -1,0 +1,232 @@
+#shopping {
+  background: #f6f6f6;
+  position: relative; }
+  #shopping .sh-top {
+    padding: 0.09rem;
+    display: flex;
+    justify-content: space-around; }
+    #shopping .sh-top .search {
+      font-size: 0.15rem;
+      color: #777;
+      padding: 0 0.15rem 0 0.17rem;
+      height: 0.38rem;
+      line-height: 0.38rem;
+      background: #fff;
+      border-radius: 0.04rem;
+      width: 2.6rem; }
+      #shopping .sh-top .search .icon-icon-- {
+        font-size: 0.2rem;
+        float: left; }
+      #shopping .sh-top .search span {
+        margin-left: 0.02rem;
+        float: left; }
+    #shopping .sh-top .shop {
+      height: 0.38rem;
+      line-height: 0.38rem; }
+      #shopping .sh-top .shop .icon-caigou-xianxing {
+        font-size: 0.2rem;
+        color: #777; }
+  #shopping .nav {
+    background: white;
+    margin-bottom: 0.15rem;
+    border-bottom: 0.01rem solid #e5e4e4; }
+    #shopping .nav ul {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap; }
+      #shopping .nav ul li {
+        width: 25%;
+        text-align: center; }
+        #shopping .nav ul li a {
+          display: block;
+          text-align: center;
+          margin: 0 auto;
+          padding: 0.1rem 0; }
+          #shopping .nav ul li a img {
+            width: 50%;
+            margin-left: 25%;
+            margin-bottom: 0.1rem; }
+          #shopping .nav ul li a span {
+            color: #777; }
+  #shopping .mallshop {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.1rem; }
+    #shopping .mallshop .shop01, #shopping .mallshop .shopRight {
+      width: 50%; }
+    #shopping .mallshop .shop01 {
+      box-sizing: border-box;
+      padding-right: 0.03rem;
+      height: 2.17rem; }
+      #shopping .mallshop .shop01 img {
+        height: 100%; }
+    #shopping .mallshop .shopRight div {
+      box-sizing: border-box;
+      padding-bottom: 0.03rem;
+      height: 1.1rem; }
+      #shopping .mallshop .shopRight div img {
+        height: 100%; }
+  #shopping .america {
+    height: 1.4rem;
+    width: 100%;
+    background-size: 100% 100%; }
+    #shopping .america ul {
+      display: flex;
+      justify-content: space-between;
+      height: 100%; }
+      #shopping .america ul li {
+        width: 20%;
+        position: relative;
+        height: 100%; }
+        #shopping .america ul li img {
+          width: 80%;
+          margin-left: 10%;
+          border-radius: 50%;
+          position: absolute;
+          top: 40%; }
+  #shopping .mall {
+    text-align: center;
+    background: white;
+    margin-bottom: 0.1rem; }
+    #shopping .mall h4 {
+      font-size: 0.14rem;
+      font-weight: normal; }
+    #shopping .mall h3 {
+      font-size: 0.2rem;
+      font-weight: normal; }
+    #shopping .mall ul {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      #shopping .mall ul li {
+        width: 33%;
+        text-align: center; }
+        #shopping .mall ul li img {
+          width: 80%;
+          margin-left: 10%; }
+        #shopping .mall ul li .title {
+          font-weight: normal;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          margin-top: 0.1rem;
+          font-size: 0.13rem; }
+        #shopping .mall ul li .price {
+          margin-top: 0.1rem;
+          color: #f15353;
+          margin-bottom: 0.1rem;
+          font-weight: 800; }
+    #shopping .mall .btn {
+      text-align: center;
+      padding: 0.2rem 0 0.1rem; }
+      #shopping .mall .btn a {
+        background: #f26262;
+        display: inline-block;
+        color: #fff;
+        text-align: center;
+        width: 1.4rem;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        border-radius: 0.2rem; }
+  #shopping .wanju {
+    background: white;
+    padding: 0.1rem 0;
+    margin-bottom: 0.1rem; }
+    #shopping .wanju .wanju-top {
+      display: flex;
+      height: 0.18rem;
+      line-height: 0.18rem;
+      justify-content: space-between; }
+      #shopping .wanju .wanju-top h2 {
+        color: #FFB90F;
+        font-weight: normal;
+        font-size: 0.16rem; }
+        #shopping .wanju .wanju-top h2 i {
+          display: inline-block;
+          background: #FFB90F;
+          height: 0.18rem;
+          width: 0.05rem;
+          vertical-align: middle;
+          margin-right: 0.05rem; }
+      #shopping .wanju .wanju-top .gengduo {
+        margin-right: 0.2rem;
+        font-size: 0.13rem; }
+        #shopping .wanju .wanju-top .gengduo i {
+          color: darkgray; }
+    #shopping .wanju .hot ul {
+      display: flex;
+      padding: 0.1rem; }
+      #shopping .wanju .hot ul li {
+        width: 33.3%;
+        box-sizing: border-box;
+        border-top: 0.02rem solid gainsboro;
+        padding-top: 0.1rem; }
+        #shopping .wanju .hot ul li a {
+          display: block;
+          text-align: center; }
+          #shopping .wanju .hot ul li a .hot-title {
+            font-weight: normal;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            margin-top: 0.1rem;
+            font-size: 0.13rem; }
+          #shopping .wanju .hot ul li a .hot-price {
+            margin-top: 0.1rem;
+            color: #f15353;
+            margin-bottom: 0.1rem;
+            font-weight: 800; }
+  #shopping .shop-bottom {
+    text-align: center;
+    padding: 0.1rem 0;
+    background-color: #f6f6f6; }
+    #shopping .shop-bottom h2 {
+      margin-bottom: 0.04rem; }
+      #shopping .shop-bottom h2 b {
+        font-weight: 400;
+        font-size: 0.15rem; }
+    #shopping .shop-bottom ul {
+      display: flex;
+      background: white;
+      flex-wrap: wrap; }
+      #shopping .shop-bottom ul li {
+        width: 50%;
+        border-bottom: 0.05rem solid ghostwhite;
+        box-sizing: border-box;
+        border-right: 0.05rem solid ghostwhite; }
+        #shopping .shop-bottom ul li a {
+          display: block;
+          position: relative; }
+          #shopping .shop-bottom ul li a span {
+            background-color: #25ACBD;
+            color: #fff;
+            display: inline-block;
+            padding: 0.01rem 0.03rem;
+            font-size: 0.08rem;
+            position: absolute;
+            left: 0;
+            top: 0; }
+          #shopping .shop-bottom ul li a .shop-title {
+            color: #969896;
+            margin-bottom: 0.04rem; }
+          #shopping .shop-bottom ul li a .shop-price {
+            color: #ff8600;
+            margin-bottom: 0.1rem;
+            font-weight: 800;
+            text-indent: -54%; }
+  #shopping .morelink {
+    width: 100%;
+    margin-bottom: 0.1rem; }
+    #shopping .morelink a {
+      font-size: 0.2rem;
+      color: #969896;
+      text-align: center;
+      display: block;
+      font-weight: 400; }
+  #shopping .backtop {
+    position: fixed;
+    width: 0.5rem;
+    height: 0.5rem;
+    z-index: 2;
+    right: 0;
+    top: 80%; }

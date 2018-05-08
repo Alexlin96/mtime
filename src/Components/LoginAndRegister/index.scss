@@ -1,0 +1,221 @@
+#mine{
+    // 登录
+    .userlogin{
+        .loginbox{
+            background: #fff;
+            margin: 0;
+            box-shadow: 0 0.03rem 0.03rem rgba(51,51,51,0.1);
+            li{
+                position: relative;
+                margin-left: 0.88rem;
+                border-bottom: 1px solid #d8d8d8;
+                padding: 0.1rem 0;
+                .table_v_c{
+                    i{
+                        font-size: 0.24rem; 
+                        width:0.3rem;
+                        height: 0.4rem;
+                        position: relative;
+                        margin-left: -0.7rem;
+                        margin-right: 0.16rem;
+                        color: gray;
+                    }
+                    input{
+                        padding-left: 0.2rem;
+                        font-size: 0.18rem;
+                        height: 0.27rem;
+                        line-height: 0.27rem;
+                        margin: 0.09rem 0;
+                    }
+                    .i_search_clear{
+                        position: absolute;
+                        top: 0.12rem;
+                        right: 0;
+                        display: block;
+                        margin-right:0.24rem;
+                        width: 0.65rem;
+                        height: 0.4rem;
+                        background: url(//static1.mtime.cn/html5/20180426170931/images/2014/search_clear.png) no-repeat 0.4rem center;
+                        background-size: 0.25rem 0.25rem;
+                        cursor: pointer;
+                    }
+                    .i_showpass{
+                        text-decoration: none;
+                        position: absolute;
+                        top: 0.12rem;
+                        right: 0;
+                        display: block;
+                        margin-right:0.24rem;
+                        height: 0.32rem;
+                        line-height: 0.32rem;
+                        cursor: pointer;
+                        span{
+                            color: #1e7dd7;
+                            font-size: 0.18rem;
+                        }
+                    }
+                }
+            }
+        }
+        .m_btn_blue{
+
+            margin: 0.32rem 0.24rem 0 0.24rem;
+            padding: 0.18rem 0 ;
+            background: #1e7dd7;
+            border: 0.01rem solid #1e7dd7;
+            border-radius: 6.4rem;
+            text-align: center;
+            display: block;
+            color: white;
+            span{ 
+                font-size: 0.20rem;
+            }
+        }
+        .loing {
+            width: 100%;
+            display: flex;
+            p{
+                flex: 1;
+                justify-content: space-around;
+                text-align: right;
+                a{
+                    text-decoration: none;
+                    padding: 0 0.24rem;
+                    display: block;
+                    line-height: 0.56rem;
+                    color: #777;
+                    font-size: 0.18rem;
+                }
+            }
+           .td1{      
+                text-align: left;
+                font-weight: bold;
+                a{
+                    color: #1e7dd7;
+                }
+            }
+        }
+        .otherlogin{
+            margin: 0.08rem 0.24rem 0;
+            border-top: 1px solid #d8d8d8;
+            padding-bottom: 0.4rem; 
+            dt{
+                text-align: center;
+                margin-top: -0.1rem;
+                margin-bottom: 0.32rem;
+                span{
+                    font-size: 0.18rem;
+                    color: #999;
+                    padding: 0 0.08rem;
+                    background: #f6f6f6;
+                }
+            }
+            dd{
+                ul{
+                    display: flex;
+                    li{
+                        flex: 1;
+                        justify-content: space-around;
+                        a{
+                            display: block;
+                            width: 0.6rem;
+                            height: 0.6rem;
+                        }
+                        .o_sina{
+                            float: right;
+                            margin-right: 0.1rem;
+                            background: url(//static1.mtime.cn/html5/20180426170931/images/2014/o_sina.png) no-repeat;
+                            background-size: cover;  
+                        }
+                        .o_qq{
+                            float: left;
+                            margin-left: 0.1rem;
+                            background: url(//static1.mtime.cn/html5/20180426170931/images/2014/o_qq.png) no-repeat;
+                            background-size: cover; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //注册
+    .regist{
+        min-height: 4rem;
+        padding:0.2rem 0 ;
+        background: white;
+        .box_bg_white{
+            .regist_list{
+                background: #fff;
+                box-shadow: 1px 1px 1px rgba(51,51,51,0.1);
+                li{
+                    border-bottom: 1px solid #d8d8d8;
+                    margin-left: 0.24rem; 
+                    .txtbox{
+                        width: 100%;
+                        position: relative;
+                        padding: 0.08rem 0 ;
+                        display: flex;
+                        label{
+                            color: #777;
+                            text-align: right;
+                            margin-right: 0.08rem;
+                            font-size: 0.18rem;
+                            line-height: 0.32rem;
+                            display: block;
+                        }
+                        input{
+                            font-size: 0.18rem;
+                            line-height: 0.32rem;
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+        .agree{
+            display: flex;
+            padding:0.24rem 0 0.24rem 0.24rem;
+            position: relative;
+            i{
+                width: 0.28rem;
+                height: 0.28rem;
+                vertical-align: middle;
+                display: inline-block;
+                margin: 0 0.08rem;
+                cursor: pointer;
+            }
+            .i_check_curr{
+                //background: url(public/img/i_check.png) no-repeat;
+                background-size: cover;
+            }
+            .i_check{
+                //background: url(public/img/i_suss.png) no-repeat;
+                background-size: contain;
+            }
+            label{
+                color: #777;
+                vertical-align: middle;
+                font-size: 0.14rem;
+            }
+            a {
+                text-decoration: none;
+                color: #1e7dd7;
+                span{
+                    font-size: 0.14rem;
+                    vertical-align: middle;
+                }
+            }
+        }
+        .btn_orange{
+            text-align: center;
+            display: block;
+            color: #fff;
+            background: #1e7dd7;
+            height: 0.4rem;
+            font-size: 0.2rem;
+            line-height: 0.4rem;
+            margin: 0 0.16rem;
+            border-radius: 0.64rem;
+        }
+    }
+}

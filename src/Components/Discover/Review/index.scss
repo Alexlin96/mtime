@@ -1,0 +1,95 @@
+#review{
+    background: white;
+    .banner{
+        width: 100%;
+        height: 2.3rem;
+        position: relative;
+        img{
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        h3{
+            font-size: 0.2rem;
+            background: rgba(0,0,0,0.5);
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 0.15rem 0 0.15rem;
+            color: white;
+            text-align: center;
+        }
+    }
+    ._reviewList{
+        padding: 0.2rem;
+        list-style: none;
+        ._reviewItem{
+            padding-bottom: 0.16rem;
+            border-bottom: 1px solid #d8d8d8;
+            padding: 0.16rem 0.16rem 0.14rem 0;
+            margin-right: -0.16rem;
+            dl{
+               dt{
+                   padding-bottom: 0.1rem;
+                   font-weight: bold;
+                   a{
+                       font-size: 0.18rem;
+                   }
+               } 
+            }
+            .cinema_reviews{
+                padding: 0;
+                ul{
+                    li{
+                        display: flex;
+                        padding-top: 0.02rem;
+                        padding: 0.16rem 0 0;
+                        .cine_user{
+                            width: 0.27rem;
+                            height: 0.27rem;
+                            margin-right: 0.07rem;
+                            img{
+                                border-radius: 0.6rem;
+                                display: block;
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+                        .cine_txt {
+                            p{
+                                color: #777;
+                                line-height: 0.18rem;
+                                b{
+                                    font-size: 0.14rem;
+                                    font-weight: normal;
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    strong{
+                                        color: #333;
+                                    }
+                                }
+                                .m_score{
+                                    margin-left: 0.07rem;
+                                    background:#659d0e;
+                                    width: 0.25rem;
+                                    height: 0.23rem;
+                                    color: #fff;
+                                    border-radius: 0;
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    line-height: 0.23rem;
+                                    text-align: center; 
+                                    i{
+                                        font-style: normal;
+                                        font-size: 0.12rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

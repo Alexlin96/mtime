@@ -1,0 +1,8 @@
+
+ 						<input type="text" placeholder="影片/影院/影人"/>
+ 					</div>
+ 					<div className="goto">
+						<span>搜索</span>
+ 					</div>
+ 				</div>
+ 			</div>

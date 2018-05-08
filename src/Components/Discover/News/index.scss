@@ -1,0 +1,119 @@
+#news{
+    background: white;
+    .banner{
+        width: 100%;
+        height: 2.3rem;
+        position: relative;
+        img{
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        h3{
+            font-size: 0.2rem;
+            background: rgba(0,0,0,0.5);
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 0.15rem 0 0.15rem;
+            color: white;
+            text-align: center;
+        }
+    }
+    ._newsList{
+        padding-left: 0.2rem;
+        list-style: none;
+        .table{
+            display: flex;
+            position: relative;
+            border-bottom: 1px solid #ddd;
+            cursor: pointer;
+            padding: 0.19rem 0 0.18rem;
+            .npic{
+                width: 1rem;
+                a{
+                    display: block;
+                    height: 0.84rem;
+                    overflow: hidden;
+                    position: relative;
+                    img{
+
+                        height: 100%;
+                        display: block;
+                    }
+                }
+            }
+            .newstxt{
+                padding-left: 0.2rem;
+                dl{
+                    margin-top: -0.03rem;
+                    position: relative;
+                    height: 0.84rem;
+                    dt{
+                        font-size: 0.16rem;
+                        line-height: 0.24rem;
+                        font-weight: bold;
+                    }
+                    dd{
+                        color: #777;
+                        padding: 0.06rem 0 0.03rem;
+                        p{
+                            font-size: 0.14rem;
+                        }
+                        time{
+                            margin-right: 0.5rem;
+                        }
+                    }
+                }
+            }
+        }
+        .notbigpic{
+            border-bottom: 1px solid #ddd;
+            cursor: pointer;
+            position: relative;
+            padding: 0.19rem 0 0.18rem;
+            .newstxt{
+                padding: 0;
+                dl{
+                    height: auto;
+                    margin-top: -0.03rem;
+                    position: relative;
+                    dt{
+                        font-size: 0.16rem;
+                        line-height: 0.24rem;
+                    }
+                    dd{
+                        color: #777;
+                        padding: 0.06rem 0 0.03rem;
+                        .picshow {
+                            padding-top: 0.06rem;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center; 
+                            p{
+                                flex-basis: 33%;
+                                a{
+                                    display: block;
+                                    height: 0.84rem;
+                                    img{
+                                        display: block;
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    p{
+        text-align: center;
+        cursor: pointer;
+        color: #1e7dd7;
+        font-size: 0.16rem;
+        padding: 0.15rem 0;
+    }
+}

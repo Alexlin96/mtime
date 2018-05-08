@@ -1,0 +1,46 @@
+#search{
+	height: .6rem;
+	background: #f6f6f6;
+	border-bottom: 1px solid #d8d8d8;
+	.head_search{
+		padding: .1rem .18rem;
+		line-height: .4rem;
+		.city{
+			float: left;
+			font-size: .18rem;
+			margin-right: .08rem;
+			i{
+				font-size: .16rem;
+			}
+		}
+		.content{
+			float: left;
+			height: .38rem;
+			border: 1px solid #bbb;
+			border-radius: .5em;
+			background: #fff;
+			text-indent: .1rem;
+			i{
+				font-size: .2rem;
+			}
+			input{
+				width: 1.6rem;
+				font-size: .18rem;
+				margin-left: .1rem;
+			}
+		}
+		.goto{
+			float: left;
+			margin-left: .1rem;
+			span{
+				display: inline-block;
+				width: .55rem;
+				font-size: .14rem;
+				text-align: center;
+				border-radius: .5em;
+				border: 1px solid #fff;
+				line-height: .35rem;
+			}
+		}
+	}
+}

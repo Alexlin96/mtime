@@ -1,0 +1,93 @@
+#toplist {
+  background: white; }
+  #toplist .banner {
+    width: 100%;
+    height: 2.3rem;
+    position: relative; }
+    #toplist .banner img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+    #toplist .banner h3 {
+      font-size: 0.2rem;
+      background: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0.15rem 0 0.15rem;
+      color: white;
+      text-align: center; }
+  #toplist .toplist {
+    padding: 0.22rem 0 0; }
+    #toplist .toplist .topmenu .table_vh_c {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      align-items: center; }
+      #toplist .toplist .topmenu .table_vh_c li {
+        text-align: center;
+        flex: 1; }
+        #toplist .toplist .topmenu .table_vh_c li a i {
+          display: block;
+          width: 0.65rem;
+          height: 0.65rem;
+          border: 0.65rem;
+          margin: auto; }
+        #toplist .toplist .topmenu .table_vh_c li a p {
+          padding: 0.18rem 0 0; }
+          #toplist .toplist .topmenu .table_vh_c li a p .no1 {
+            color: #1498c9; }
+          #toplist .toplist .topmenu .table_vh_c li a p .no2 {
+            color: #3bc7c2; }
+          #toplist .toplist .topmenu .table_vh_c li a p .no3 {
+            color: #ffc12d; }
+        #toplist .toplist .topmenu .table_vh_c li a .top01 {
+          background: url(//static1.mtime.cn/html5/20180426170931/images/2014/top01.png) no-repeat;
+          background-size: cover; }
+        #toplist .toplist .topmenu .table_vh_c li a .top02 {
+          background: url(//static1.mtime.cn/html5/20180426170931/images/2014/top02.png) no-repeat;
+          background-size: cover; }
+        #toplist .toplist .topmenu .table_vh_c li a .top03 {
+          background: url(//static1.mtime.cn/html5/20180426170931/images/2014/top03.png) no-repeat;
+          background-size: cover; }
+    #toplist .toplist .topnews {
+      border-top: 1px solid #d8d8d8;
+      margin-top: 0.28rem; }
+      #toplist .toplist .topnews .link {
+        text-align: center;
+        padding-left: 0.2rem; }
+        #toplist .toplist .topnews .link a {
+          display: block;
+          text-align: left;
+          padding: 0.22rem 0;
+          position: relative;
+          border-bottom: 1px solid #d8d8d8; }
+          #toplist .toplist .topnews .link a .toptxt h2 {
+            margin-right: 0.4rem;
+            line-height: 0.16rem; }
+            #toplist .toplist .topnews .link a .toptxt h2 b {
+              font-size: 0.18rem; }
+          #toplist .toplist .topnews .link a .toptxt .txt_elli {
+            padding-right: 0.38rem;
+            height: 0.2rem;
+            margin-top: 0.12rem;
+            overflow: hidden; }
+            #toplist .toplist .topnews .link a .toptxt .txt_elli span {
+              color: #777;
+              font-size: 0.16rem; }
+          #toplist .toplist .topnews .link a .i_tnext {
+            font-style: normal;
+            display: block;
+            font-size: 0.2rem;
+            color: #777;
+            position: absolute;
+            top: 46%;
+            right: 0.16rem;
+            margin-top: -0.05rem; }
+  #toplist .btn {
+    text-align: center;
+    cursor: pointer;
+    color: #1e7dd7;
+    font-size: 0.16rem;
+    padding: 0.15rem 0; }

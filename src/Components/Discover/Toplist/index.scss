@@ -1,0 +1,123 @@
+#toplist{
+    background: white;
+    .banner{
+        width: 100%;
+        height: 2.3rem;
+        position: relative;
+        img{
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        h3{
+            font-size: 0.2rem;
+            background: rgba(0,0,0,0.5);
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 0.15rem 0 0.15rem;
+            color: white;
+            text-align: center;
+        }
+    }
+    .toplist{
+        padding: 0.22rem 0 0 ;
+        .topmenu{
+            .table_vh_c{
+                display: flex;
+                width: 100%;
+                justify-content: space-around;
+                align-items: center;
+                li{
+                    text-align: center;
+                    flex: 1;
+                    a{
+                        i{
+                            display: block;
+                            width: 0.65rem;
+                            height: 0.65rem;
+                            border: 0.65rem;
+                            margin: auto;
+                        }
+                        p{
+                            padding: 0.18rem 0 0;
+                            .no1{
+                                color: #1498c9;
+                            }
+                            .no2{
+                                color: #3bc7c2;
+                            }
+                            .no3{
+                                color: #ffc12d;
+                            }
+                        }
+                        .top01{
+                            background: url(//static1.mtime.cn/html5/20180426170931/images/2014/top01.png) no-repeat;
+                            background-size: cover;
+                        }
+                        .top02{
+                            background: url(//static1.mtime.cn/html5/20180426170931/images/2014/top02.png) no-repeat;
+                            background-size: cover;
+                        }
+                        .top03{
+                            background: url(//static1.mtime.cn/html5/20180426170931/images/2014/top03.png) no-repeat;
+                            background-size: cover;
+                        }
+                    }
+                }
+            }
+        }
+        .topnews{
+            border-top: 1px solid #d8d8d8;
+            margin-top: 0.28rem;
+            .link{
+                text-align: center;
+                padding-left: 0.2rem;
+                a{
+                    display: block;
+                    text-align: left;
+                    padding: 0.22rem 0 ;
+                    position: relative;
+                    border-bottom: 1px solid #d8d8d8;
+                    .toptxt{
+                        h2{
+                            margin-right: 0.4rem;
+                            line-height: 0.16rem;
+                            b{
+                                font-size: 0.18rem;
+                            }
+                        }
+                        .txt_elli{
+                            padding-right: 0.38rem;
+                            height: 0.2rem;
+                            margin-top: 0.12rem;
+                            overflow: hidden;
+                            span{
+                                color: #777;
+                                font-size: 0.16rem;
+                            }
+                        }
+                    }
+                    .i_tnext{
+                        font-style: normal;
+                        display: block;
+                        font-size: 0.2rem;
+                        color: #777;
+                        position: absolute;
+                        top: 46%;
+                        right: 0.16rem;;
+                        margin-top: -0.05rem;
+                    }
+                }
+            }
+        }
+    }
+    .btn{
+        text-align: center;
+        cursor: pointer;
+        color: #1e7dd7;
+        font-size: 0.16rem;
+        padding: 0.15rem 0;
+    }
+}

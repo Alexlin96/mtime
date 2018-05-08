@@ -1,0 +1,188 @@
+#moWan {
+  height: 100%; }
+  #moWan .moWan-top {
+    background: #1c2635;
+    height: 0.3rem;
+    padding: 0.2rem 0.06rem;
+    display: flex;
+    position: relative;
+    z-index: 4; }
+    #moWan .moWan-top .icon-shangyiye {
+      color: white;
+      font-size: 0.3rem; }
+    #moWan .moWan-top .moWan-center {
+      background: white;
+      padding-top: 0.06rem;
+      width: 2.8rem;
+      height: 0.3rem;
+      border-radius: 0.1rem;
+      padding-left: 0.1rem; }
+      #moWan .moWan-top .moWan-center i {
+        font-size: 0.2rem; }
+      #moWan .moWan-top .moWan-center .searchText {
+        font-size: 0.18rem;
+        margin-left: 0.02rem; }
+    #moWan .moWan-top .moWan-right {
+      margin-left: 0.1rem;
+      margin-top: 0.02rem; }
+      #moWan .moWan-top .moWan-right .icon-shaixuan {
+        font-size: 0.3rem;
+        color: white; }
+  #moWan .moWan-nav {
+    background: white;
+    position: relative;
+    z-index: 4; }
+    #moWan .moWan-nav ul {
+      display: flex;
+      border-bottom: 0.01rem solid gainsboro; }
+      #moWan .moWan-nav ul li {
+        width: 33.3%;
+        text-align: center;
+        height: 0.4rem;
+        font-size: 0.14rem; }
+        #moWan .moWan-nav ul li a {
+          color: #333;
+          box-sizing: border-box;
+          border-right: 0.01rem solid gainsboro;
+          display: block;
+          height: 0.2rem;
+          margin-top: 0.1rem; }
+          #moWan .moWan-nav ul li a .icon-icon--1 {
+            margin-left: 0.15rem; }
+          #moWan .moWan-nav ul li a .icon-icon--2 {
+            margin-left: 0.15rem; }
+  #moWan .sortDiv {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    width: 100%;
+    height: 100%; }
+    #moWan .sortDiv ul {
+      background: white;
+      padding-left: 0.1rem; }
+    #moWan .sortDiv li {
+      height: 0.5rem;
+      line-height: 0.5rem;
+      border-bottom: 0.01rem solid gainsboro;
+      font-size: 0.2rem; }
+    #moWan .sortDiv .active {
+      border-bottom-color: dodgerblue; }
+      #moWan .sortDiv .active a {
+        color: dodgerblue; }
+  #moWan .topic {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    width: 100%;
+    height: 100%; }
+    #moWan .topic ul {
+      background: white; }
+      #moWan .topic ul li {
+        height: 0.6rem;
+        background: gainsboro;
+        line-height: 0.6rem;
+        padding-left: 0.12rem; }
+        #moWan .topic ul li a {
+          display: flex; }
+          #moWan .topic ul li a img {
+            width: 0.4rem;
+            height: 0.4rem;
+            margin-top: 0.1rem; }
+          #moWan .topic ul li a span {
+            margin-left: 0.2rem;
+            font-size: 0.2rem; }
+      #moWan .topic ul .active {
+        border-bottom-color: dodgerblue;
+        background: white; }
+        #moWan .topic ul .active a {
+          color: dodgerblue; }
+  #moWan .rolemain {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    width: 100%;
+    height: 100%; }
+    #moWan .rolemain ul {
+      background: white; }
+      #moWan .rolemain ul li {
+        height: 0.6rem;
+        line-height: 0.6rem;
+        border-bottom: 0.01rem solid gainsboro;
+        margin-left: 0.12rem; }
+        #moWan .rolemain ul li a span {
+          margin-left: 0.2rem;
+          font-size: 0.2rem; }
+      #moWan .rolemain ul .active {
+        border-bottom-color: dodgerblue;
+        background: white; }
+        #moWan .rolemain ul .active a {
+          color: dodgerblue; }
+  #moWan .maWan-list {
+    margin-top: 4%; }
+    #moWan .maWan-list ul {
+      display: flex;
+      flex-wrap: wrap; }
+      #moWan .maWan-list ul li {
+        width: 50%;
+        box-sizing: border-box;
+        background: white;
+        padding: 0.05rem 0.1rem;
+        border-right: 0.05rem solid gainsboro;
+        border-bottom: 0.05rem solid gainsboro;
+        position: relative;
+        height: 2.2rem; }
+        #moWan .maWan-list ul li a {
+          display: block; }
+          #moWan .maWan-list ul li a img {
+            width: 80%;
+            margin-bottom: 0.08rem;
+            margin-left: 10%; }
+          #moWan .maWan-list ul li a .name {
+            color: #333;
+            font-size: 0.13rem;
+            margin-bottom: 0.1rem; }
+          #moWan .maWan-list ul li a .weizhi {
+            position: absolute;
+            top: 90%; }
+            #moWan .maWan-list ul li a .weizhi .youPrice {
+              color: #ff8600;
+              font-size: 0.12rem; }
+            #moWan .maWan-list ul li a .weizhi .yuanPrice {
+              text-decoration: line-through;
+              font-size: 0.11rem;
+              margin-left: 0.1rem; }
+  #moWan .morelink {
+    width: 100%;
+    padding-bottom: 0.1rem;
+    background: gainsboro; }
+    #moWan .morelink a {
+      font-size: 0.2rem;
+      color: #969896;
+      text-align: center;
+      display: block;
+      font-weight: 400; }
+  #moWan .backtop {
+    position: fixed;
+    width: 0.5rem;
+    height: 0.5rem;
+    z-index: 2;
+    right: 0;
+    top: 80%; }
+
+.example-enter {
+  opacity: 0.01;
+  transform: translateY(-100%); }
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 500ms ease-in; }
+
+.example-leave {
+  opacity: 1;
+  transform: translateY(0); }
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transform: translateY(-100%);
+  transition: all 300ms ease-in; }

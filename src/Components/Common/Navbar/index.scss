@@ -1,0 +1,41 @@
+#nav{
+	nav{
+		height: .5rem;
+		background: #1c2635;
+		ul{
+			display: flex;
+			padding-left: .1rem;
+			box-sizing: border-box;
+			li{
+				float: left;
+				font-size: .16rem;
+				color: #fff;
+				height: .5rem;
+				text-align: center;
+				flex: 1;
+				.active{
+					color: #fff;
+					font-weight: 800;
+					border-bottom: .02rem solid #fff;
+				}
+				.logo{
+					border-bottom: none;
+				}
+				a{
+					display: inline-block;
+					line-height: .48rem;
+					color: #bbb;
+					height: .48rem;
+					img{
+						width: 100%;
+						display: block;
+						margin-top: .15rem;
+					}
+				}
+				.my-icon{
+					font-size: .2rem;
+				}
+			}
+		}
+	}
+}

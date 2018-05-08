@@ -1,0 +1,169 @@
+#comingsoon{
+	background: #fff;
+	h2{
+		font-size: .22rem;
+		padding: .18rem 0 0 .18rem;
+		span{
+			    color: #999;
+		}
+	}
+	.slider-list{
+		height: 2.04rem !important;
+	}
+	.loop{
+		position: relative;
+		z-index: 15;
+		height: 1.5rem;
+		margin-top: .25rem;
+		padding: .18rem 0 .1rem .03rem;
+		border-top: 1px solid #bbb;
+		.loop_date{
+			position: absolute;
+			top: -0.08rem;
+			left: 0;
+			z-index: 9;
+			font-size: .16rem;
+			color: #777;
+			padding: 0 .1rem;
+			background: #fff;
+		}
+		.loop_pic{
+			float: left;
+			width: 1rem;
+			height: 1.5rem;
+			margin-right: .18rem;
+			img{
+				height: 100%;
+			}
+		}
+		.loop_intro{
+			width: 2.1rem;
+			float: left;
+			.loop_title{
+				height: 1.2rem;
+				h3{
+					font-size: .18rem;
+					margin-bottom: .04rem;
+				}
+				p{
+					font-size: .14rem;
+					line-height: .24rem;
+				}
+				p:last-child{
+					width: 100%;
+					white-space: nowrap;
+				    text-overflow: ellipsis;
+				    overflow: hidden;
+				}
+				.wanted_count{
+					color: #ff8600;
+				}
+			}
+			.loop_presell{
+				height: .3rem;
+				span{
+					display: inline-block;
+					width: 1rem;
+					text-align: center;
+					line-height: .28rem;
+					border-radius: .48rem;
+					font-size: .16rem;
+				}
+				.ticket{
+					color: #fff;
+					background: #ff8600;
+					border: 1px solid #ff8600;
+					margin-right: .06rem;
+				}
+				.video{
+					color: #659c0d;
+					border: 1px solid #659c0d;
+				}
+			}
+		}
+	}
+	.movie_coming{
+		.month{
+			padding: .14rem 0;
+			margin-left: .18rem;
+			font-size: .18rem;
+			border-bottom: 1px solid #bbb;
+		}
+	}
+	.movie_list{
+		padding: 0 0 0 .18rem;
+		.movie{
+			position: relative;
+			height: 1.18rem;
+			padding: 0.18rem 0 .17rem;
+			margin-left: .36rem;
+			border-bottom: 1px solid #d8d8d8;
+			.rday{
+				position: absolute;
+				top: .18rem;
+				left: -.36rem;
+				font-size: .14rem;
+				color: #999;
+			}
+			.movie_pic{
+				float: left;
+				width: .78rem;
+				height: 1.18rem;
+				margin-right: .18rem;
+				img{
+					height: 100%;
+				}
+			}
+			.movie_intro{
+				width: 2.1rem;
+				float: left;
+				.movie_title{
+					height: .88rem;
+					h3{
+						font-size: .18rem;
+						margin-bottom: .04rem;
+					}
+					p{
+						font-size: .14rem;
+						line-height: .24rem;
+					}
+					p:last-child{
+						width: 100%;
+						white-space: nowrap;
+					    text-overflow: ellipsis;
+					    overflow: hidden;
+					}
+					.wanted_count{
+						color: #ff8600;
+					}
+				}
+				.movie_presell{
+					height: .3rem;
+					span{
+						display: inline-block;
+						width: 1rem;
+						text-align: center;
+						line-height: .28rem;
+						border-radius: .48rem;
+						font-size: .16rem;
+					}
+					.ticket{
+						color: #fff;
+						background: #ff8600;
+						border: 1px solid #ff8600;
+						margin-right: .06rem;
+					}
+					.video{
+						color: #659c0d;
+						border: 1px solid #659c0d;
+					}
+				}
+			}
+		}
+	}
+	.movie_list:last-child{
+		.movie{
+			border-bottom: 0;
+		}
+	}
+}

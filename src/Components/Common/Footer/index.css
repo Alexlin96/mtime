@@ -1,0 +1,44 @@
+#footer {
+  background: #f6f6f6; }
+  #footer .footernav {
+    height: .5rem;
+    background: #fff; }
+    #footer .footernav ul {
+      display: flex; }
+      #footer .footernav ul li {
+        flex: 1;
+        font-size: .18rem;
+        text-align: center;
+        line-height: .5rem; }
+        #footer .footernav ul li a {
+          color: #0074c5; }
+  #footer .footerlink {
+    height: .56rem;
+    background: #f6f6f6; }
+    #footer .footerlink ul {
+      padding: 0 0.05rem;
+      overflow: hidden; }
+      #footer .footerlink ul li {
+        float: left;
+        padding: .2rem 0; }
+        #footer .footerlink ul li span {
+          font-size: .14rem;
+          padding: 0 .18rem;
+          border-right: 1px solid #d8d8d8; }
+      #footer .footerlink ul li:last-child span {
+        border-right: 0; }
+  #footer .copy {
+    padding: 0 0 .24rem 0;
+    color: #cdcdcd;
+    text-align: center; }
+    #footer .copy p:first-child {
+      height: .24rem; }
+      #footer .copy p:first-child span {
+        display: inline-block;
+        width: .65rem;
+        height: .24rem; }
+    #footer .copy p:last-child {
+      height: .12rem; }
+      #footer .copy p:last-child span {
+        display: inline-block;
+        font-size: .12rem; }

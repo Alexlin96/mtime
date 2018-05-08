@@ -1,0 +1,79 @@
+#nowplaying{
+	background: #fff;
+	ul{
+		padding: 0 .18rem .18rem;
+	}
+	li:last-child{
+		border-bottom: 0;
+	}
+	li{
+		padding: .18rem 0 .1rem;
+		border-bottom: 1px solid #d8d8d8;
+		display: flex;
+	}
+	.movie_pic{
+		width: .8rem;
+		height: 1.2rem;
+		margin-right: .18rem;
+		img{
+			height: 100%;
+		}
+	}
+	.movie_info{
+		flex: 1;
+		height: 1.2rem;
+		.title{
+			height: .8rem;
+			.title_head{
+				b{
+					font-size: .18rem;
+					margin-right: .05rem;
+				}
+				span{
+					display: inline-block;
+					width: .25rem;
+					height: .2rem;
+					background: #659d0e;
+					font-size: .12rem;
+					text-align: center;
+					line-height: .2rem;
+					color: #fff;
+				}
+			}
+			.title_intro{
+				font-size: .16rem;
+				line-height: .24rem;
+				color: #659d0e;
+			}
+			.mtool{
+				font-size: .12rem;
+				color: #659d0e;
+				span{
+					display: inline-block;
+					padding: .03rem;
+					border: 1px solid #659d0e;
+					margin-right: .03rem;
+					border-radius: 0.03rem;
+				}
+			}
+		}
+		.buy{
+			font-size: .14rem;
+			color: #999;
+			line-height: .4rem;
+			overflow: hidden;
+			a{
+				float: right;
+				width: .8rem;
+				height: .3rem;
+				font-size: .16rem;
+				color: #fff;
+				background: #ff8600;
+				text-align: center;
+				line-height: .3rem;
+				border-radius: .48rem;
+				margin-top: .05rem;
+			}
+		}
+	}
+}

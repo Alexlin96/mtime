@@ -1,0 +1,25 @@
+#hotpoint {
+  padding: 0 .18rem; }
+  #hotpoint li {
+    display: flex;
+    overflow: hidden;
+    padding: .15rem 0;
+    border-bottom: 1px solid #d8d8d8; }
+    #hotpoint li .hotpic {
+      width: 1.35rem;
+      height: 0.95rem;
+      background: red; }
+      #hotpoint li .hotpic img {
+        height: 100%; }
+    #hotpoint li .hotcontent {
+      margin-left: .1rem; }
+      #hotpoint li .hotcontent h3 {
+        font-size: .19rem;
+        line-height: .19rem; }
+      #hotpoint li .hotcontent p {
+        font-size: .14rem;
+        line-height: .24rem; }
+  #hotpoint li:first-child {
+    padding-top: 0; }
+  #hotpoint li:last-child {
+    border-bottom: 0; }

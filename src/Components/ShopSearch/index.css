@@ -1,0 +1,35 @@
+#shopSearch {
+  height: 100%; }
+  #shopSearch .search-top {
+    background: #1c2635;
+    height: 0.3rem;
+    padding: 0.2rem 0.06rem;
+    display: flex; }
+    #shopSearch .search-top .icon-shangyiye {
+      color: white;
+      font-size: 0.3rem; }
+    #shopSearch .search-top .search-center {
+      background: white;
+      padding-top: 0.06rem;
+      width: 2.4rem;
+      height: 0.3rem;
+      border-radius: 0.1rem;
+      padding-left: 0.1rem; }
+      #shopSearch .search-top .search-center i {
+        font-size: 0.2rem; }
+      #shopSearch .search-top .search-center .searchText {
+        font-size: 0.18rem;
+        margin-left: 0.02rem; }
+    #shopSearch .search-top .search-xx {
+      display: block;
+      color: #fff;
+      width: 0.5rem;
+      height: 0.3rem;
+      text-align: center;
+      line-height: 0.3rem;
+      border: 0.01rem solid #fff;
+      border-radius: 0.1rem;
+      margin-top: 0.02rem;
+      margin-left: 0.06rem; }
+  #shopSearch .search-cen {
+    height: 4.3rem; }
